@@ -1,0 +1,64 @@
+html {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #ffe44b;
+    padding: 10px 25px;
+    height: 50px;
+}
+
+div#header div.item {
+    color: #000000;
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+div#header div.item.logo {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #ffffff;
+}
+
+div#header img {
+    padding: 0px;
+    width: 100%;
+}
+
+div#hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 40px 50px;
+    gap: 20px;
+}
+
+div#hero div.item {
+    flex: 1;
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: center;
+    color: black;
+}
+
+div#hero img {
+    max-width: 60vw;
+    height: auto;
+}
