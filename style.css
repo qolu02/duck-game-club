@@ -70,6 +70,28 @@ div#hero img {
     height: auto;
 }
 
+div#front-testimonial {
+    display: flex;
+    margin: 40px 50px;
+    gap: 50px;
+    align-items: center;
+    width: 60vw;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.125rem;
+}
+div#front-testimonial div.img {
+    flex: 2;
+}
+div#front-testimonial img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+div#front-testimonial div.text {
+    flex: 5;
+}
+
 /***************************************************************************************/
 
 div#footer {
